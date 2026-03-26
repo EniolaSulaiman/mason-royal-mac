@@ -602,7 +602,7 @@ p  { font-size: 1.05rem; color: rgba(15,23,42,0.75); }
 }
 @media (max-width: 640px) {
   :root { --nav-h: 64px; }
-  .navbar__links, .navbar__cta { display: none; }
+  .navbar__links, .navbar__cta a{ display: none; }
   .hamburger { display: flex; }
   .services-grid, .testimonials-grid, .mission-cards { grid-template-columns: 1fr; }
   .footer__grid { grid-template-columns: 1fr; }
